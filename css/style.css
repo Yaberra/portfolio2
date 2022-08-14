@@ -1,0 +1,217 @@
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.card-img-top {
+
+	background-color: rgb(74,170,165);
+	font: color #04817E;
+}
+
+.navbar-brand {
+	background-color: #FFFFFF;
+}
+
+#navbarNav {
+	font-size: 20px;
+	font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
+}
+
+.jumbotron {
+	background-image: url(/assets/heroimg.png);
+	background-repeat: no-repeat;
+	background: rgba(200, 196, 196, 0.5);
+    background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -9 
+  }
+
+.card-footer {
+
+	background-color: #F2AF34;
+	font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
+
+}
+
+h1{ 
+ 	 color: rgb(74,170,165);
+ 	 font-family: Arial, Helvetica, sans-serif;
+	 padding-left: 20px
+	 padding-right: 20px;
+	 margin-left: 10px;
+ 	 margin-right: 10px;
+
+ }
+
+ .display-2{
+	margin-top: 15%;
+ }
+
+ h1 {
+		color: rgb(74,170,165);
+		font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
+ }
+
+ h2 {
+
+		color: black;
+		font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
+
+ }
+
+ h4 {
+
+ 		color: black;
+		font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
+ }
+
+h5 {
+
+ 		color: black;
+		font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
+ }
+
+ h6 {
+ 		color: black;
+ 	 	font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
+ }
+
+ .btn-lg {
+	color: rgb(#FFFFFF);
+	background-color: #04817E;
+
+ }
+
+
+
+ #myPhoto {
+ 	width: 300px;
+ 	height: 300px;
+ 	background-color: #F2AF34;
+ 	border-color: #cccccc;
+
+}	
+
+body {
+
+   background-image: url(assets/ep_naturalwhite.png)
+   
+}
+
+.col-sm-8 {
+	float: left;
+
+}
+
+content {
+
+	background-color: #FFFFFF;
+	font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
+	font-size: 20px;
+	margin-left: 20px;
+	margin-right: 10px;
+	border-color: #cccccc;
+	height: 400px;
+
+}
+	
+main { 
+ 
+    background-color: #FFFFFF;
+    font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
+		
+ }	
+
+
+
+#socialMedia {
+    background-color: #FFFFFF;
+    border-color: #cccccc;
+    font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
+}
+
+.messageButton {
+
+	width: 200px;
+}
+
+
+.aboutNav {
+float: right;
+display: inline-block;
+font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
+}
+
+.portfolioNav {
+	float: right;
+display: inline-block;
+font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
+}
+
+.contactNav {
+	float: right;
+display: inline-block;
+}
+
+footer {
+
+	background-color: #373738;
+	border-color: #cccccc;
+	font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
+}
+
+#iconTable{
+	height: 150px;
+	margin-top: 20px; 
+}
+
+#githubIcon {
+
+	width: 30px;
+	margin-left: 20px;
+	margin-right: 30px; 
+
+}
+
+#linkedinIcon {
+
+	width: 30px;
+	margin-left: 20px; 
+	margin-right: 10px; 
+}
+
+#twitterIcon {
+	width: 30px;
+	margin-left: 30px;
+
+}
+
+#inputEmail4 {
+	color: rgb(74,170,165);
+	
+}
+#contactform{
+	color: rgb(#FFFFFF);
+	background-color: #04817E;
+	width: 200px; 
+	height: 50px;
+	border: #FFFFFF;
+	font: color white;
+}
+.card-deck {
+	
+}
+content {
+	width: 500px;
+	margin: 0 auto;
+}
