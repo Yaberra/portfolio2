@@ -71,8 +71,15 @@ body, html {
 	padding: 10px 24px;
 	font-size: 20px;
 	color:white;
-}
+	text-decoration: none;
+	border-radius: 8px;
+	transition: 0.3s all;
 
+}
+.btn :hover {
+	opacity: 0.8;
+
+}
 .card-img-top {
 
 	background-color: rgb(74,170,165);
