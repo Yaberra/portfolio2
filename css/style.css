@@ -6,6 +6,39 @@
   @include media-breakpoint-only(xl) {
     column-count: 5;
   }
+  *,
+  *::before,
+  *::after {
+	box-sizing: border-box;
+
+}
+:root {
+	--ff-primary:var(font-family: Arial, Helvetica, sans-serif);
+
+	--ff-secondary:var(roboto);
+
+	--fw-reg:var(300);
+	--fw-bold:var(900);
+
+	--clr-light:var(white);
+	--clr-dark:var(#04817E)
+
+	--clr-accent:(#AA1495);
+	
+
+	--fs-h1:var(3rem);
+	--fs-h2:var(2.25)
+	--fs-h3:var(1.25rem);
+	--fs-body:var(1rem);
+}
+
+@media (min-width: 800px) {
+	:root{
+		--fs-h1: 4.5rem
+		--fs-h2: 3.75rem;
+		--fs-h1:1.5rem;
+		--fs-body:1.125rem;
+	}
 }
 
 body, html {
