@@ -8,6 +8,40 @@
   }
 }
 
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #f1f1ff;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.heroImage {
+	position: relative;
+	height: 600px;
+	overflow: hidden;
+	background: url(/assets/heroimg.png) no-repeat;
+	background-size: cover;
+	
+  }
+  
+  .container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	font-weight: 700px;
+  }
+  
+  .hero-text button:hover {
+	background-color: #555;
+	color: white;
+  }
+
 .card-img-top {
 
 	background-color: rgb(74,170,165);
