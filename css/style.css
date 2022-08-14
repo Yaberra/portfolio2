@@ -34,13 +34,44 @@ body, html {
 	overflow: hidden;
 	text-align: center;
 	color: white;
-	font-weight: 700px;
+	font-weight: 700;
+	
   }
   
+  .container h1 {
+	font-size: 26px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	margin: 0;
+	
+
+  }
+
+  .container h2 {
+	font-size: 36px;
+	letter-spacing: 0.2em;
+	text-transform: none;
+	width: 200px;
+
+  }
+  
+  .container h1 span {
+	border: 10px solid white;
+	padding: 6px 14px;
+	display: inline-block;
+
+  }
   .hero-text button:hover {
 	background-color: #555;
 	color: white;
   }
+
+.btn {
+	background-color: #04817E;
+	padding: 10px 24px;
+	font-size: 20px;
+	color:white;
+}
 
 .card-img-top {
 
@@ -57,18 +88,6 @@ body, html {
 	font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
 }
 
-.jumbotron {
-	background-image: url(/assets/heroimg.png);
-	background-repeat: no-repeat;
-	background: rgba(200, 196, 196, 0.5);
-    background-size: cover;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: -9 
-  }
 
 .card-footer {
 
