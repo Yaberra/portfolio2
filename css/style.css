@@ -6,39 +6,6 @@
   @include media-breakpoint-only(xl) {
     column-count: 5;
   }
-  *,
-  *::before,
-  *::after {
-	box-sizing: border-box;
-
-}
-:root {
-	--ff-primary:var(font-family: Arial, Helvetica, sans-serif);
-
-	--ff-secondary:var(roboto);
-
-	--fw-reg:var(300);
-	--fw-bold:var(900);
-
-	--clr-light:var(white);
-	--clr-dark:var(#04817E)
-
-	--clr-accent:(#AA1495);
-	
-
-	--fs-h1:var(3rem);
-	--fs-h2:var(2.25)
-	--fs-h3:var(1.25rem);
-	--fs-body:var(1rem);
-}
-
-@media (min-width: 800px) {
-	:root{
-		--fs-h1: 4.5rem
-		--fs-h2: 3.75rem;
-		--fs-h1:1.5rem;
-		--fs-body:1.125rem;
-	}
 }
 
 body, html {
@@ -70,9 +37,10 @@ body, html {
 	text-align: center;
 	text-size-adjust: 25%;
 
-	font-size: 20px;
+	font-size: 28px;
 	padding: 20px;
 	width: 200px;
+	
 	transition: all 0.5s;
 	cursor: pointer;
 	margin: 5px;
@@ -153,6 +121,50 @@ body, html {
 	text-decoration: none;
 	border-radius: 8px;
 	transition: 0.3s all;
+}
+@media (max-width: 800px) {
+	.flex-container {
+	  flex-direction: column;
+	}
+  }
+
+.flexContainer {
+	display: flex;
+  	justify-content: center;
+  	align-items: stretch;
+  	align-content: space-between;
+	column-count: 3;
+}
+.mySkills {
+	padding: 5px;
+	margin: 8%;
+	display: block;
+}
+
+.technicalTools {
+	padding: 5px;
+	margin: 8%;
+	display: block;
+
+}
+
+
+.skillbox1 .skillbox2 .skillbox3 {
+	width: 300px;
+	height: 320pc;
+	text-align: left;
+	margin: 15%;
+	padding: 5%;
+	transition: .3s ease-in-out;
+	
+}
+
+.toolsbox1 .toolsbox12 .toolsbox13 .toolsbox14 {
+	margin: 15%;
+	padding: 5%;
+	transition: .3s ease-in-out;
+	
+}
 
 
 .card-img-top {
@@ -231,8 +243,7 @@ h5 {
 
  #myPhoto {
  	width: 300px;
- 	height: 300px;
- 	background-color: #F2AF34;
+ 	height: 350px;
  	border-color: #cccccc;
 
 }	
@@ -243,20 +254,29 @@ body {
    
 }
 
-.col-sm-8 {
+.col-sm-9{
 	float: left;
-
+	width: 60%;
+  	padding: 0;
+	margin-left: 22%;
+	margin-top: auto;
+	background-color: black;
 }
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
 
 content {
 
-	background-color: #FFFFFF;
+	background-color: #000000 cover;
 	font-family: 'Georgia' , 'Times' , 'Times New Roman' ,'Serif';
 	font-size: 20px;
-	margin-left: 20px;
-	margin-right: 10px;
-	border-color: #cccccc;
-	height: 400px;
+	margin: 8%;
+	margin-left: 15%;
+	color: white;
 
 }
 	
