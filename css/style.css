@@ -380,7 +380,7 @@ btn btn-primary {
 
 .intro {
 	width: 800px;
-	margin: 0; 
+	margin-left: 50%; 
 	align-items: center;
 	justify-content: center;
 	margin-left: 20%;
