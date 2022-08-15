@@ -399,3 +399,17 @@ btn btn-primary {
 	background-color: #04817E;
 	text; color: #FFFFFF;
 }
+
+.inputEmail4 {
+	align-items: left;
+	align-items: stretch;
+
+}
+
+.form-group {
+	text-align:left;
+
+}
+.label{
+	color: #04817E;
+}
