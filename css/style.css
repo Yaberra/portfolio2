@@ -2,7 +2,10 @@
   @include media-breakpoint-only(lg) {
     column-count: 4;
   }
-
+  @media only screen and (max-width: 600px) {
+	// Your new css selectors go here
+	}
+	
   @include media-breakpoint-only(xl) {
     column-count: 5;
   }
@@ -205,6 +208,10 @@ body, html {
 
   }
   
+
+  .nav{
+	display: none;
+  }
 .navbar-brand {
 	background-color: #FFFFFF;
 }
@@ -382,4 +389,13 @@ btn btn-primary {
 }
 .card-text {
 	color: white;
+}
+
+.col-lg-4 col-md-12 mb-4 mb-lg-0 {
+	background-color: black;
+}
+
+.card-footer {
+	background-color: #04817E;
+	text; color: #FFFFFF;
 }
