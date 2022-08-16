@@ -418,3 +418,7 @@ content {
 	display: grid
 
 }
+
+.card-header {
+	background-color: #A7E0DF;
+}
