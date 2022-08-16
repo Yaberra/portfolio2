@@ -19,10 +19,16 @@ body, html {
 	font-family: Arial, Helvetica, sans-serif;
 
 }
+.heroImage {
+background: linear-gradient(teal);
+opacity: 65%;
+
+}
 
 .heroImage {
-	background-image: url(/assets/heroimg.png);
+
 	
+	background-image: url(/assets/heroimg.png);
 	position: relative;
 	height: 600px;
 	overflow: hidden;
@@ -85,9 +91,9 @@ body, html {
   }
   
   .container h1 {
-	font-size: 48px;
+	font-size: 24px;
 	letter-spacing: 0.2em;
-	text-transform: uppercase;
+	text-transform: none;
 	margin-top: 25%;
 	top: 60%;
 	
@@ -100,6 +106,7 @@ body, html {
 	text-transform: none;
 	width: 150px;
 	height: fit-content;
+	margin-left: 50%;
 
   }
   
@@ -112,6 +119,7 @@ body, html {
   .hero-text button:hover {
 	background-color: #555;
 	color: white;
+	width: 400px;
   }
 
 .btn {
