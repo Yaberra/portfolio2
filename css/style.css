@@ -28,7 +28,7 @@ opacity: 65%;
 .heroImage {
 
 	
-	background-image: url(/images/heroimg.PNG);
+	background-image: url(./images/heroimg.PNG);
 	position: relative;
 	height: 600px;
 	overflow: hidden;
