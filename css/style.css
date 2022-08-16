@@ -146,17 +146,16 @@ opacity: 65%;
 	font: color #04817E;
 }
 .photo {
-	background-color: black;
+	background-color:white;
 	margin: 10px;
 	padding: 10px;
-	width: 500x;
-	height: 500px;
+	width: 400px;
   }
 
   .aboutMe {
-	background-color: black;
+	background-color:white
 	font-family: Arial, Helvetica, sans-serif;
-	color:white;
+	color:;
 	margin: 10px;
 	margin-top: 2%;
 	padding: 10px;
@@ -168,9 +167,10 @@ opacity: 65%;
   }
 
   .aboutMe h1 {
-	font-size: 72px;
-	font-style: italic;
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 36px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	
   }
 
   .flexContainer {
@@ -449,7 +449,6 @@ content {
 	font-family: Arial, Helvetica, sans-serif;
   }
   
-  /* Center website */
   .main {
 	max-width: 1000px;
 	margin: auto;
@@ -464,13 +463,11 @@ content {
 	margin: 8px -16px;
   }
   
-  /* Add padding BETWEEN each column */
   .row,
   .row > .column {
 	padding: 8px;
   }
   
-  /* Create four equal columns that floats next to each other */
   .column {
 	float: left;
 	width: 25%;
@@ -509,3 +506,20 @@ content {
 	.WorkGrid h3 {
 		color: #04817E;
 	}
+
+	.aboutGrid .column {
+		float: left;
+		width: 50%;
+	  }
+	  
+	  
+	  .aboutGrid .row {
+		content: "";
+		display: table;
+		clear: both;
+	  }
+
+	  .aboutMeContent {
+		margin-left: 50%;
+		width: 500px
+	  }
